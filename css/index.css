@@ -80,7 +80,7 @@ h1 {
     color: rgb(225, 239, 230);
     text-align: center;
     padding-top: 2%;
-   
+
     ​​
 }
 
@@ -114,11 +114,13 @@ header {
 
 
 }
+
 .navbar-div {
     height: 35vh;
-    width:100%;
+    width: 100%;
     background-color: rgb(0, 4, 17, .8);
 }
+
 #header-nav {
     height: 12vh;
     width: 100%;
@@ -133,12 +135,12 @@ header {
     margin-left: 14%;
     font-size: 3.5rem;
     padding-top: 2.5%;
-    
+
 }
 
 .icons {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 10%;
     padding-left: 10%;
@@ -281,52 +283,76 @@ i {
 /* footer section */
 footer {
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     padding-top: 2.5vh;
     font-size: 3rem;
     color: rgb(225, 239, 230);
     background-color: rgb(0, 4, 17);
     display: flex;
-
     flex-wrap: wrap;
+
 }
 
-.form {
-
+.email-container {
+    width: 30%;
     display: flex;
+    flex-direction: column;
+}
 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-left: 5%;
+.mailing-list p {
+    width: 100%;
+    margin-left: 18%;
+    font-size: 4rem;
+
+}
+
+.email-form {
+    width: 100%;
+    height: 100%
+
 }
 
 input {
-    padding: 0.5rem;
-    font-size: 2rem;
-    background-color: white;
+    height: 75%;
+    width: 65%;
+   
+    font-size: 2.5rem;
+    background-color: rgb(225, 239, 230);
     border: none;
-    height: 12%;
-    width: 12%;
     margin-left: 5%;
+    
+    
 }
 
 button {
-    padding: 0.5rem;
+    height: 76%;
+    width: 25%;
+    font-family: 'Roboto', sans-serif;
     font-size 3rem;
     border: none;
-    height: 13%;
-    width: 10%;
+    font-size:2rem;
+    background-color: rgb(225, 239, 230);
+    
+    
+    
+    
 }
 
+.nav-container {
+    width: 70%;
+    padding-top: 1%;
+}
+
+
 #footer-nav {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    justify-content: space-around;
 }
 
 #footer-nav a {
     color: rgb(225, 239, 230);
-    text-align: center;
+    font-size: 3.5rem;
 
 }
 
@@ -335,13 +361,12 @@ button {
 .copyright {
     display: flex;
     justify-content: flex-end;
-
-    height: 8%;
+    margin-left: 60%;
 
 }
 
 .copyright p {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 /* mobile media query */
