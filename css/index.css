@@ -217,7 +217,6 @@ i {
 
 .about-container {
     height: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -482,7 +481,7 @@ button {
 
     .navbar-div {
         height: 47vh;
-       
+
     }
 
     h1 {
@@ -520,44 +519,74 @@ button {
     }
 
     /* gallery section */
-    .gallery {
-        height: auto;
+
+    #gallery-section {
+        height: 360vh;
     }
+
     .gallery {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+
         gap: .1%;
-        margin-top: 2%;
-    
+        margin-top: 1.5%;
+
     }
-    
+
     .gallery img {
-        margin: 5.5% 0;
-        height: 100%;
+
+        margin: 3.5% 0;
         width: 100%;
-        display: flex;
+
     }
 
     /* about us section */
 
     .about {
         height: 200vh;
+
     }
 
     .about h2 {
         width: 100%;
-        padding-top: 5vh;
+        margin-bottom: 60%;
+        font-size: 6rem;
+
     }
 
     .about-container .text {
         width: 85%;
+
+    }
+
+
+    .about-container {
+        flex-direction: column;
+
+
+    }
+
+    .about-container .text {
+        width: 90%;
+        margin-bottom: 40%;
+
+    }
+
+    .text h3 {
+        font-size: 5rem;
+    }
+
+    .text p {
+        font-size: 2.7rem;
     }
 
     /* contact us section */
+
+    .contact-container h2 {
+        font-size: 6rem;
+    }
+
     .contact h3 {
         padding-top: 2.5vh;
+        font-size: 5rem;
     }
 
     .info {
@@ -569,6 +598,10 @@ button {
         padding-bottom: 2.5vh;
     }
 
+    .address p {
+        font-size: 3rem;
+    }
+
     .hours {
         width: 100%;
     }
@@ -578,16 +611,30 @@ button {
         padding-bottom: 2.5vh;
     }
 
+    .contacts div a {
+        font-size: 2.5rem;
+    }
+
     /* footer section */
     footer {
-        height: auto;
+        height: 70vh;
+        width: 100%;
         padding-top: 2.5vh;
         font-size: 2rem;
+        display: flex;
+        flex-direction: column;
 
     }
 
     .mailing-list p {
-        font-size: 1rem;
+        font-size: 3rem;
+    }
+
+    .email-container {
+        width: 100%;
+        height: 35%;
+        display: flex;
+
     }
 
     #footer-nav a {
@@ -599,24 +646,51 @@ button {
     }
 
     input {
-        height: 25%;
-        width: 50%;
-        font-size: 1.5rem;
-        margin-left: 7%;
-
-
+        height: 19%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     button {
-        height: 25%;
-        width: 25%;
-        font-family: 'Roboto', sans-serif;
-        font-size 3rem;
-        border: none;
-        font-size: 1.5rem;
+        height: 19%;
+        width: 90%;
+        margin-left: 5%;
+ }
+
+ .nav-container {
+     height: 50%;
+     width: 100%;
+     
+    
+ }
+
+ #footer-nav {
+     display:flex;
+     flex-direction: column;
+     
+ }
+
+ #footer-nav a {
+    color: rgb(225, 239, 230);
+    font-size: 3.5rem;
+    text-align: center;
+
+}
 
 
-    }
+
+.copyright {
+    display: block;
+    justify-content: center;
+    margin-left: 0%;
+
+}
+
+.copyright p {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
 
 
 }
