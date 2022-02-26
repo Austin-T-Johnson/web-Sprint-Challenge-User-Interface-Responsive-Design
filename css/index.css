@@ -416,35 +416,36 @@ button {
     }
 
     .contact h2 {
-       
+
         font-size: 5rem;
     }
-    
+
     .contact h3 {
         font-size: 3rem;
     }
-    
+
     .contact p {
-      
+
         font-size: 2rem;
     }
-    
+
     .info {
-     
+
         justify-content: center;
     }
-    
+
     .contacts div a {
         font-size: 2rem;
     }
 
     footer {
-       height: 35vh;
+        height: 35vh;
     }
 
     .mailing-list p {
         font-size: 2.5rem;
     }
+
     #footer-nav a {
         font-size: 2.5rem;
     }
@@ -452,15 +453,16 @@ button {
     .copyright p {
         font-size: 1.5rem;
     }
+
     input {
         height: 25%;
         width: 50%;
         font-size: 1.5rem;
         margin-left: 7%;
-    
-    
+
+
     }
-    
+
     button {
         height: 25%;
         width: 25%;
@@ -468,8 +470,8 @@ button {
         font-size 3rem;
         border: none;
         font-size: 1.5rem;
-       
-    
+
+
     }
 }
 
@@ -478,10 +480,64 @@ button {
 @media (max-width: 428px) {
     /* header section */
 
+    .navbar-div {
+        height: 47vh;
+       
+    }
+
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #header-nav {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-nav a {
+        color: rgb(225, 239, 230);
+        margin-left: 4%;
+        font-size: 2rem;
+        padding-top: 0%;
+        font-size: 3rem;
+
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 6%;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    i {
+        color: rgb(225, 239, 230);
+        font-size: 2.5em;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
+    }
+    .gallery {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: .1%;
+        margin-top: 2%;
+    
+    }
+    
+    .gallery img {
+        margin: 5.5% 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
     }
 
     /* about us section */
@@ -527,6 +583,38 @@ button {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+
+    }
+
+    .mailing-list p {
+        font-size: 1rem;
+    }
+
+    #footer-nav a {
+        font-size: 1rem;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+
+    input {
+        height: 25%;
+        width: 50%;
+        font-size: 1.5rem;
+        margin-left: 7%;
+
+
+    }
+
+    button {
+        height: 25%;
+        width: 25%;
+        font-family: 'Roboto', sans-serif;
+        font-size 3rem;
+        border: none;
+        font-size: 1.5rem;
+
 
     }
 
