@@ -589,18 +589,48 @@ button {
 
     .menu-container h2 {
         height: 3%;
-        padding-top: 4%;
+        padding-top: 1%;
         padding-bottom: 0%;
         font-size: 5rem;
         border-bottom: 17px solid black;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
         width: 80%;
         margin-left: 10%;
     }
+    
+    #drinks.menu-section {
+        height: 14%;
+        margin-top: 0%;
+    }
 
+    #appetizers.menu-section {
+        width: 60%;
+        margin-left: 20%;
+        height: 12%;
+        
+    }
+
+    #soup-salad.menu-section {
+        width: 60%;
+        margin-left: 20%;
+        height: 12%;
+    }
+
+    #entrees.menu-section {
+        width: 60%;
+        margin-left: 20%;
+       height: 12%;
+    }
+
+    #desserts.menu-section {
+        width: 60%;
+        margin-left: 20%;
+        height: 12%;
+    }
+   
 
     .menu-section {
-        height: 17%;
+        height: 25%;
         width: 50%;
         margin-left: 25%;
         margin-bottom: 10%;
@@ -610,9 +640,9 @@ button {
     
     
     .menu-section h3 {
-        width: 100%;
+       
         margin-bottom: 4%;
-        border: 2px solid rgb(0, 4, 17);
+        border: 4px solid rgb(0, 4, 17);
         font-size: 4.5rem;
         text-align: center;
      
@@ -627,7 +657,6 @@ button {
 
     .menu-item p {
         width: 100%;
-        
         border-bottom: 7px solid black;
     }
 
