@@ -588,7 +588,7 @@ button {
     }
 
     .menu-container h2 {
-        height: 3%;
+        height: 2%;
         padding-top: 1%;
         padding-bottom: 0%;
         font-size: 5rem;
@@ -599,41 +599,39 @@ button {
     }
     
     #drinks.menu-section {
-        height: 14%;
-        margin-top: 0%;
+        height: 10%;
+        
     }
 
     #appetizers.menu-section {
         width: 60%;
         margin-left: 20%;
-        height: 12%;
+        height: 10%;
         
     }
 
     #soup-salad.menu-section {
         width: 60%;
         margin-left: 20%;
-        height: 12%;
+        height: 10%;
     }
 
     #entrees.menu-section {
         width: 60%;
         margin-left: 20%;
-       height: 12%;
+       height: 10%;
     }
 
     #desserts.menu-section {
         width: 60%;
         margin-left: 20%;
-        height: 12%;
+        height: 10%;
     }
    
 
     .menu-section {
-        height: 25%;
         width: 50%;
         margin-left: 25%;
-        margin-bottom: 10%;
     }
 
    
@@ -655,7 +653,17 @@ button {
     }
     
 
-    .menu-item p {
+    /* .menu-item p {
+        width: 100%;
+        border-bottom: 7px solid black;
+    } */
+
+    .menu-item .description {
+        width: 100%;
+        border-bottom: 7px solid black;
+    }
+
+    .menu-item .special {
         width: 100%;
         border-bottom: 7px solid black;
     }
